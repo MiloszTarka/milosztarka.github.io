@@ -27,7 +27,7 @@ const Home = () => {
         <div id="upper-home-screen">
           <div>
             <h1>EXPLORE THE UNIVERSE</h1>
-            <h2>journey through the mysteries of space</h2>
+            <h2>journey through the mystries of space</h2>
           </div>
             <button onClick={handleScroll}>start the journey</button>
         </div>
