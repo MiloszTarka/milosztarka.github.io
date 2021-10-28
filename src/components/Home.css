@@ -1,0 +1,112 @@
+.container-home{
+
+    font-Family: "Roboto Condensed";
+    height: 190vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#upper-home-screen{
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#upper-home-screen div{
+    position: relative;
+    top: 5vh;
+}
+#upper-home-screen h1, #upper-home-screen h2{
+    color: white;
+    position: relative;
+
+
+}
+#upper-home-screen h1{
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.438);
+    font-size: 3.3vw;
+    padding-bottom: 15px;
+    opacity: 0;
+    line-height: 20px;
+    letter-spacing: 11px;
+    animation: appear 4s forwards;
+    animation-delay: 1s;
+
+}
+#upper-home-screen h2{
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.538);
+    font-size: 2.5vw;
+    font-weight: 100;
+    letter-spacing: 10px;
+    opacity: 0;
+    animation: appear 2s forwards;
+    animation-delay: 3s;
+}
+
+#upper-home-screen button{
+    font-family: 'Roboto Condensed';
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.534);
+    font-weight: 100;
+    font-size: 1.2vw;
+    letter-spacing: 0.2vw; 
+    color: #FFD0A5;
+    width: 17vw;
+    height: 6vh;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border-color: #FFD0A5;
+    box-Shadow: 2px 2px 4px rgb(0 0 0/ 0.25);
+    border-radius: 40px;
+    transition: all 0.3s ease-out;
+}
+
+#upper-home-screen button:hover{
+    background: #FFD0A5;
+    color: black;
+
+}
+
+#icons{
+    width: 50vw;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: absolute;
+    bottom: -95vh;
+    right: 10vw;
+}
+
+#icons a{
+    padding-left: 50px;
+    width: 4vh;
+    height: 4vh;
+    opacity: 0.7;
+}
+
+@media(max-width: 600px){
+    .container-home{
+    height: 290vh;
+    }
+
+    #icons{
+        bottom: -195vh;
+    }
+
+    #upper-home-screen button{
+        width: 40vw;
+        font-size: 3.5vw;
+    }
+
+    #upper-home-screen h1, #upper-home-screen h2{
+        letter-spacing: 0.1vw;
+        font-size: 6vw;
+        width: 65vw;
+    }
+
+}

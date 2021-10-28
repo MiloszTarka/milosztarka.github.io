@@ -1,0 +1,89 @@
+.container-aboutus{
+
+    font-Family: "Roboto Condensed";
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#upper-aboutus-screen{
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#upper-aboutus-screen div{
+    position: relative;
+    top: 5vh;
+}
+#upper-aboutus-screen h1, #upper-aboutus-screen h2{
+    color: white;
+    position: relative;
+
+
+}
+#upper-aboutus-screen h1{
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.438);
+    font-size: 3.3vw;
+    padding-bottom: 15px;
+    opacity: 0;
+    line-height: 20px;
+    letter-spacing: 11px;
+    animation: appear 4s forwards;
+    animation-delay: 1s;
+
+}
+#upper-aboutus-screen h2{
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.538);
+    font-size: 2.5vw;
+    font-weight: 100;
+    letter-spacing: 10px;
+    opacity: 0;
+    animation: appear 3s forwards;
+}
+
+.container-aboutus #upper-aboutus-screen button{
+    font-family: 'Roboto Condensed';
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.534);
+    font-weight: 100;
+    font-size: 1.5vw;
+    letter-spacing: 7px; 
+    color: #FFD0A5;
+    width: 5vw;
+    height: 5vh;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border-color: #FFD0A5;
+    box-Shadow: 2px 2px 4px rgb(0 0 0/ 0.25);
+    border-radius: 40px;
+    transition: all 0.3s ease-out;
+}
+
+#upper-aboutus-screen button:hover{
+    background: #FFD0A5;
+    color: black;
+
+}
+
+.container-aboutus button span{
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+@media(max-width: 600px){
+    #upper-aboutus-screen h2{
+        width: 75vw;
+        font-size: 4vw;
+    }
+    
+    .container-aboutus #upper-aboutus-screen button{
+        width: 10vw;
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,162 @@
+.lower-home-screen{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.lower-home-screen .picture{
+    width: 30vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url('../../image-mars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 10vh;
+    color: white;
+}
+
+.picture h1{
+    font-size: 2.6vw;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 0px;
+    font-weight: Bold;
+    letter-spacing: 6vw;
+    position: relative;
+    left: 2vw;
+}
+.picture #destination{
+    line-height: 10vh;
+}
+.picture p{
+    padding-bottom: 0;
+    font-size: 1vw;
+    margin-bottom: 0;
+    line-height: 15vh;
+    font-weight: 300;
+    letter-spacing: 4px;
+    position: relative;
+    left: 2vw;
+    opacity: 0.9;
+}
+
+.content{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#right {
+    color:rgb(255, 255, 255);
+}
+
+
+
+.content h1{
+    position: relative;
+    left: -9vw;
+    letter-spacing: 20px;
+    font-size: 3.1vw;
+}
+
+.content p{
+    margin-top: 0;
+    position: relative;
+    left: 9vw;
+    font-size: 1vw;
+    font-weight: 100;
+    letter-spacing: 0.1vw;
+    line-height: 40px;
+    width: 25vw;
+}
+
+#right p{
+    width: 44vw;
+    left: 5vw;
+}
+
+.content a{
+    text-decoration: none;
+    color: #FFD0A5;
+    text-shadow: 1px 1px  1px black;
+    font-weight: 500;
+}
+.content hr{
+    width: 15vw;
+    color: black;
+    position: relative;
+    left: -13vw;
+    padding: 0;
+    margin: 0;
+
+}
+
+@media(max-width: 600px){
+
+    .lower-home-screen{
+        flex-direction: column;
+        height: auto;
+    }
+    #right-screen{
+        flex-direction: column-reverse;
+    }
+
+    .lower-home-screen .picture{
+        width: 100vw;
+        height: 100vh;
+        background-repeat: round;
+    }
+
+
+    .content{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .content #right{
+        height: 100vh;
+    }
+    #right h1{
+        padding-bottom: 2vh;
+    }
+    #right p{
+        font-size: 3vw;
+        line-height: 3.5vh;
+        left: -5vw;
+        width: 75vw;
+        margin-top: 1vh;
+    }
+
+    .content p{
+        font-size: 3.5vw;
+        width: 65vw;
+    }
+    .content h1{
+        font-size: 6vw;
+        letter-spacing: 2vw;
+    }
+
+    .picture h1{
+        font-size: 10vw;
+        letter-spacing: 17vw;
+
+    }
+    .picture #destination{
+        font-size: 3vw;
+    }
+    .picture p{
+        font-size: 3vw;
+    }
+
+    .content hr{
+        width: 50vw;
+    }
+}

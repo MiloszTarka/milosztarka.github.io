@@ -1,0 +1,82 @@
+
+.navbar{
+    width: 90vw;
+    height: 10vh;
+    font-weight: normal;
+    margin-left: 5vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.navbar-buttons{
+ 
+    width: 40vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-buttons a{
+    text-decoration: none;
+}
+.navbar-buttons p{
+    line-height: 50px;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1vw;
+    font-weight: 300;
+    opacity: 0.8
+}
+.navbar-buttons p:hover{
+    opacity: 1;
+    color: #FFD0A5;
+}
+.navbar h1{
+    font-size: 1.5vw;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 30px;
+
+ }
+
+.navbar-buttons button:hover, .navbar h1:hover{
+    cursor: pointer;
+}
+
+
+@media(max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        background-color: black;
+        height: 10vh;
+        width: 100vw;
+        opacity: 0.8;
+    }
+
+    .navbar-buttons{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+    }
+
+    .navbar a{
+        height: 1vh;
+    }
+
+    .navbar h1{
+        text-align: center;
+        font-size: 3vw;
+    }
+    .navbar-buttons p{
+        font-size: 3vw;
+        padding: 0;
+        padding-top: 2vh;
+        margin: 0;
+    }
+}
