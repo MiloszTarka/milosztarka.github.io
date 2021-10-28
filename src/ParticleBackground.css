@@ -17,7 +17,7 @@
     background-color: rgb(25, 27, 41);
 }
 
-@media(max-width: 1000px){
+@media(max-width: 600px){
     #aboutus{
         width: 100vw;
         top: 400vh;
