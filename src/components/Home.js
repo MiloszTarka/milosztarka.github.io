@@ -8,8 +8,11 @@ import BottomContainer from "./Containers/BottomContainer";
 const Home = () => {
   
   const initializeLocalStorage = () => {
+    if(localStorage.getItem('favorites')){}
+    else{
     var helper = [];
 		localStorage.setItem('favourites', JSON.stringify(helper));
+    }
 	};
 
   function handleScroll() {
