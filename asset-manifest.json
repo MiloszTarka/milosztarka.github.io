@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b0cccb8.chunk.css",
+    "main.js": "/static/js/main.c80b25d6.chunk.js",
+    "main.js.map": "/static/js/main.c80b25d6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.26737761.js",
+    "runtime-main.js.map": "/static/js/runtime-main.26737761.js.map",
+    "static/js/2.988b37b9.chunk.js": "/static/js/2.988b37b9.chunk.js",
+    "static/js/2.988b37b9.chunk.js.map": "/static/js/2.988b37b9.chunk.js.map",
+    "static/js/3.64e55246.chunk.js": "/static/js/3.64e55246.chunk.js",
+    "static/js/3.64e55246.chunk.js.map": "/static/js/3.64e55246.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9b0cccb8.chunk.css.map": "/static/css/main.9b0cccb8.chunk.css.map",
+    "static/js/2.988b37b9.chunk.js.LICENSE.txt": "/static/js/2.988b37b9.chunk.js.LICENSE.txt",
+    "static/media/Facebook.ee484a98.svg": "/static/media/Facebook.ee484a98.svg",
+    "static/media/Instagram.b67a4f6c.svg": "/static/media/Instagram.b67a4f6c.svg",
+    "static/media/Izery.65c1021e.jpg": "/static/media/Izery.65c1021e.jpg",
+    "static/media/building.8db04aaa.jpg": "/static/media/building.8db04aaa.jpg",
+    "static/media/emptyheart.21db7aa2.svg": "/static/media/emptyheart.21db7aa2.svg",
+    "static/media/filledheart.e48b41e1.svg": "/static/media/filledheart.e48b41e1.svg",
+    "static/media/App.css": "/static/media/image-earth.ae8ebf5a.jpg",
+    "static/media/BottomContainer.css": "/static/media/image-mars.05e7cfdd.jpg",
+    "static/media/planet-svgrepo-com.2da21bf8.svg": "/static/media/planet-svgrepo-com.2da21bf8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26737761.js",
+    "static/js/2.988b37b9.chunk.js",
+    "static/css/main.9b0cccb8.chunk.css",
+    "static/js/main.c80b25d6.chunk.js"
+  ]
+}
